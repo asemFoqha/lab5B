@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  gap: 15px;
+  border: 2px blue solid;
+  width: 550px;
+  padding: 20px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: blue;
+}
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+button {
+  width: 100%;
+  margin: 10px 0;
+}
+
+input {
+  display: block;
+}
+textarea {
+  resize: none;
+}
